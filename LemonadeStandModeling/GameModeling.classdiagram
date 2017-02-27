@@ -97,13 +97,13 @@
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation Id="95acb6ab-09cc-46f5-9f8e-7d234c33dad6" name="StartGame" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="95acb6ab-09cc-46f5-9f8e-7d234c33dad6" name="StartGame" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="9c1bd16c-4a96-4adb-b5dd-06a86c64a799" />
           </operation>
-          <operation Id="77a26be9-b556-41f6-84e8-6ffd33e43238" name="RestartGame" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="77a26be9-b556-41f6-84e8-6ffd33e43238" name="RestartGame" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="f0398d1b-6cb9-431d-8ede-6c5dcce30185" />
           </operation>
-          <operation Id="5be147de-52ff-48de-abeb-904e91658c60" name="DisplayMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="5be147de-52ff-48de-abeb-904e91658c60" name="DisplayMenu" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="488ddd26-30f4-447c-a1f3-c8e0f7ae8db1" />
           </operation>
         </ownedOperationsInternal>
@@ -574,25 +574,25 @@
           <property Id="2c771fbc-f6df-4ffc-ad9f-9331abc818e9" name="lemon" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ca89bf47-e455-4c3e-899c-4bbd8533dde8" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="f30e004d-5e4a-4d6f-87f7-85b096ebfc0f" LastKnownName="Lemon" />
+              <referencedTypeMoniker Id="36441d7e-d9af-43d4-9864-f603eb648f6e" LastKnownName="List&lt;Lemon&gt;" />
             </type_NamedElement>
           </property>
           <property Id="3888bc7d-81ad-479c-81da-20c944ede7ec" name="sugar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ad534860-50c8-44f6-b965-ec8084fdcd79" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="6f739aa0-e8dc-40d2-962e-8869d9f35ccb" LastKnownName="Sugar" />
+              <referencedTypeMoniker Id="9956483b-7952-4ba5-9b40-26dc7b848cdc" LastKnownName="List&lt;Sugar&gt;" />
             </type_NamedElement>
           </property>
           <property Id="9913d484-2d01-49cb-aa9a-af095f2bedf5" name="ice" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="1e7fe4e9-a277-4ff4-b9d7-3079e2a58cbc" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="be204c61-cd1e-4357-83c1-199dbaac8b88" LastKnownName="Ice" />
+              <referencedTypeMoniker Id="2aedaeaa-708d-4612-aa68-8ef561516b0b" LastKnownName="List&lt; Ice&gt;" />
             </type_NamedElement>
           </property>
           <property Id="810eb6d0-0378-45db-b4e5-14c239322a9a" name="pitcher" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a1c3fbee-7b22-461b-bc38-e82364bf1fb8" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="52dff0b3-1ffd-4d02-8cce-f78c3c193b13" LastKnownName="Pitcher" />
+              <referencedTypeMoniker Id="b4a51248-2fdd-46f4-a801-9c74759ec8a5" LastKnownName="List&lt; Pitcher&gt;" />
             </type_NamedElement>
           </property>
           <property Id="ef7afa38-b79d-4001-ab46-5dcd650fd1a2" name="lemonadeCup" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -643,26 +643,6 @@
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
-    <packageHasNamedElement>
-      <referencedType Id="f30e004d-5e4a-4d6f-87f7-85b096ebfc0f" name="Lemon" isAbstract="false" isLeaf="false" cachedFullName="Lemon">
-        <elementDefinition Id="b561217f-0162-495d-a1c3-7242bd979d29" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="6f739aa0-e8dc-40d2-962e-8869d9f35ccb" name="Sugar" isAbstract="false" isLeaf="false" cachedFullName="Sugar">
-        <elementDefinition Id="35c9df4d-5001-40b6-8a0c-0e8bb9d2c38a" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="be204c61-cd1e-4357-83c1-199dbaac8b88" name="Ice" isAbstract="false" isLeaf="false" cachedFullName="Ice">
-        <elementDefinition Id="34c197e4-c44b-4af6-9a8b-7bfe4cbc7017" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="52dff0b3-1ffd-4d02-8cce-f78c3c193b13" name="Pitcher" isAbstract="false" isLeaf="false" cachedFullName="Pitcher">
-        <elementDefinition Id="31623644-5cfb-497a-913a-627c31b11397" />
-      </referencedType>
-    </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="84a9cb33-d005-48aa-b2d5-3f1c6b9dbc59" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
         <elementDefinition Id="ada4d284-cce9-4ae6-97ec-73eba7f24c9d" />
@@ -915,6 +895,26 @@
         <elementDefinition Id="0689993f-aaf9-4419-a32c-6a9ebf245d38" />
       </class>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="2aedaeaa-708d-4612-aa68-8ef561516b0b" name="List&lt; Ice&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt; Ice&gt;">
+        <elementDefinition Id="8193f8fa-45a0-429b-8cb4-e3cb1782dd14" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="36441d7e-d9af-43d4-9864-f603eb648f6e" name="List&lt;Lemon&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Lemon&gt;">
+        <elementDefinition Id="4b8443f5-9162-4a69-bc4f-c1d172d8bbbe" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b4a51248-2fdd-46f4-a801-9c74759ec8a5" name="List&lt; Pitcher&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt; Pitcher&gt;">
+        <elementDefinition Id="6100bb27-c9ea-42b8-8196-0659fc70849f" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9956483b-7952-4ba5-9b40-26dc7b848cdc" name="List&lt;Sugar&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Sugar&gt;">
+        <elementDefinition Id="11350131-4457-424a-9a21-93809f836c59" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="72d72758-b143-4637-91e6-4ed39224c325" name="LemonadeStandModeling">
     <elementDefinition Id="c18decb0-7448-42e6-9896-e7ef720c7be1" />

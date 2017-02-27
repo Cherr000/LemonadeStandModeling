@@ -269,6 +269,7 @@
           <operation
             Id="9c1bd16c-4a96-4adb-b5dd-06a86c64a799"
             name="StartGame"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -277,6 +278,7 @@
           <operation
             Id="f0398d1b-6cb9-431d-8ede-6c5dcce30185"
             name="RestartGame"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -285,6 +287,7 @@
           <operation
             Id="488ddd26-30f4-447c-a1f3-c8e0f7ae8db1"
             name="DisplayMenu"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -1288,8 +1291,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="b561217f-0162-495d-a1c3-7242bd979d29"
-                LastKnownName="Lemon"
+                Id="4b8443f5-9162-4a69-bc4f-c1d172d8bbbe"
+                LastKnownName="List&lt;Lemon&gt;"
                 LastKnownLocation="LemonadeStandModeling.uml" />
             </type_NamedElement>
           </property>
@@ -1306,8 +1309,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="35c9df4d-5001-40b6-8a0c-0e8bb9d2c38a"
-                LastKnownName="Sugar"
+                Id="11350131-4457-424a-9a21-93809f836c59"
+                LastKnownName="List&lt;Sugar&gt;"
                 LastKnownLocation="LemonadeStandModeling.uml" />
             </type_NamedElement>
           </property>
@@ -1324,8 +1327,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="34c197e4-c44b-4af6-9a8b-7bfe4cbc7017"
-                LastKnownName="Ice"
+                Id="8193f8fa-45a0-429b-8cb4-e3cb1782dd14"
+                LastKnownName="List&lt; Ice&gt;"
                 LastKnownLocation="LemonadeStandModeling.uml" />
             </type_NamedElement>
           </property>
@@ -1342,8 +1345,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="31623644-5cfb-497a-913a-627c31b11397"
-                LastKnownName="Pitcher"
+                Id="6100bb27-c9ea-42b8-8196-0659fc70849f"
+                LastKnownName="List&lt; Pitcher&gt;"
                 LastKnownLocation="LemonadeStandModeling.uml" />
             </type_NamedElement>
           </property>
@@ -2006,6 +2009,26 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8193f8fa-45a0-429b-8cb4-e3cb1782dd14"
+        name="List&lt; Ice&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4b8443f5-9162-4a69-bc4f-c1d172d8bbbe"
+        name="List&lt;Lemon&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6100bb27-c9ea-42b8-8196-0659fc70849f"
+        name="List&lt; Pitcher&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="11350131-4457-424a-9a21-93809f836c59"
+        name="List&lt;Sugar&gt;" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
